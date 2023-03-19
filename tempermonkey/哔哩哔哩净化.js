@@ -13,6 +13,6 @@
     window.addEventListener("load",() => {
         let targets = document.getElementsByClassName("pop-live-small-mode part-undefined");
         targets.forEach(e => e.style.visibility = "hidden");
-        alert(targets.length);
+//         alert(targets.length);
     });
 })();
